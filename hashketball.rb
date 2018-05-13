@@ -219,9 +219,9 @@ def big_shoe_rebounds #solving with array
   shoe_array = []
   game_hash.each do |location,team_data|
     team_data[:players].each do |player,player_data|
-      binding.pry
       shoe_array.push(player_data[:shoe])
     end
+    binding.pry
     shoe_array
   end
   max_shoe = shoe_array.max 
