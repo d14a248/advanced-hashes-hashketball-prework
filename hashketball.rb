@@ -214,7 +214,8 @@ end #def
 
 
 
-def player_stats(name)
+def big_shoe_rebounds
+  shoe_array = []
   game_hash.each do |location,team_data|
     team_data[:players].each do |player,player_data|
       
