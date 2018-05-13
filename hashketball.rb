@@ -229,12 +229,13 @@ def big_shoe_rebounds #solving with array
   #binding.pry
   game_hash.each do  |location,team_data|
     team_data[:players].each do |player,plater_data|
+      binding.pry
       if max_shoe == player_data[:shoe]
         num_rebounds = player_data[:rebounds]
       end
     end
   end
   num_rebounds
-  binding.pry
+  #binding.pry
 end
 
