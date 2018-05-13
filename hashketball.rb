@@ -220,11 +220,16 @@ def big_shoe_rebounds #solving with array
   game_hash.each do |location,team_data|
     team_data[:players].each do |player,player_data|
       shoe_array.push(player_data[:shoe])
+    end
   end
   max_shoe = shoe_array.max 
   game_hash.each do  |location,team_data|
     team_data[:players].each do |player,plater_data|
-      if max_shoe == 
+      if max_shoe == player_data[:shoe]
+        rebounds = player_data[:rebounds]
+      end
+    end
   end
+  
 end
 
