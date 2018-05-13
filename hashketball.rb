@@ -182,7 +182,7 @@ def player_stats(name)
 end
 
 
-def big_shoe_rebounds #solving with hash
+def big_shoe_rebounds #solving with hash 
   shoe_rebounds = []
   game_hash.each do |location,team_data|
     team_data[:players].each do |player,player_data|
@@ -215,7 +215,7 @@ end #def
 
 
 
-def big_shoe_rebounds
+def big_shoe_rebounds #solving with array
   shoe_array = []
   game_hash.each do |location,team_data|
     team_data[:players].each do |player,player_data|
