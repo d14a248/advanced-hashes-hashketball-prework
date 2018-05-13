@@ -220,7 +220,6 @@ def big_shoe_rebounds #solving with array
   game_hash.each do |location,team_data|
     team_data[:players].each do |player,player_data|
       shoe_array.push(player_data[:shoe])
-      #binding.pry
     end
     #binding.pry
     shoe_array
