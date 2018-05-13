@@ -222,7 +222,7 @@ def big_shoe_rebounds #solving with array
       shoe_array.push(player_data[:shoe])
       #binding.pry
     end
-    binding.pry
+    #binding.pry
     shoe_array
   end
   max_shoe = shoe_array.max 
