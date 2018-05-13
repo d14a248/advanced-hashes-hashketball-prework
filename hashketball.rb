@@ -233,6 +233,5 @@ def big_shoe_rebounds #solving with array
     end
   end
   num_rebounds
-  #binding.pry
 end
 
