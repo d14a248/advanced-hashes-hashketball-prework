@@ -182,36 +182,36 @@ def player_stats(name)
 end
 
 
-def big_shoe_rebounds #solving with hash 
-  shoe_rebounds = []
-  game_hash.each do |location,team_data|
-    team_data[:players].each do |player,player_data|
+#def big_shoe_rebounds #solving with hash 
+#  shoe_rebounds = []
+#  game_hash.each do |location,team_data|
+#    team_data[:players].each do |player,player_data|
         
-        hash = {
-          'shoe_size': player_data[:shoe],
-          'rebounds': player_data[:rebounds]
-        }
+#        hash = {
+#          'shoe_size': player_data[:shoe],
+#          'rebounds': player_data[:rebounds]
+#        }
          
-        shoe_rebounds << hash
+#        shoe_rebounds << hash
         
-    end #team_data
+#    end #team_data
    
-  end #game_hash
+# end #game_hash
 
    
-   max_val = 0
-   num_rebounds = 0
+#   max_val = 0
+#   num_rebounds = 0
    
-   shoe_rebounds.each do |hash|
+#   shoe_rebounds.each do |hash|
    
-     if max_val == 0 || hash[:shoe_size] > max_val
-        max_val = hash[:shoe_size]
-        num_rebounds = hash[:rebounds]
-     end
+#     if max_val == 0 || hash[:shoe_size] > max_val
+#        max_val = hash[:shoe_size]
+#        num_rebounds = hash[:rebounds]
+#     end
      
-   end
-    num_rebounds
-end #def
+#   end
+#    num_rebounds
+#end #def
 
 
 
@@ -224,7 +224,7 @@ def big_shoe_rebounds #solving with array
   max_shoe = shoe_array.max 
   game_hash.each do  |location,team_data|
     team_data[:players].each do |player,plater_data|
-      
+      if max_shoe == 
   end
 end
 
